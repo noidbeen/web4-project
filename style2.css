@@ -1,0 +1,263 @@
+
+
+body {
+	display: block;
+	margin: 0 0;
+  background-color: #F5F5F5;
+  font-family: sans-serif;
+}
+
+p {
+  padding: 0 0;
+}
+
+button:focus{
+  outline:0;
+}
+
+.wrapper {
+	width: 100%;
+	max-height: 100%
+}
+
+.header {
+	width: 100%;
+	height: 164px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	box-shadow: 0 2px 10px #ebebeb;
+  top: 0px;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	margin: 32px 0 0 42px;
+	float: left;
+
+}
+.header h1 {
+	font-size: 14pt;
+	color: #000;
+	float: left;
+	margin: 50px 0 0 40px;
+	letter-spacing: 5px;
+}
+ul {
+	list-style-type: none;
+}
+.menu-bar {
+	float: left;
+	height: 50px;
+	width: 60%;
+}
+li a {
+	text-decoration: none;
+	color: #000000;
+	float: left;
+	margin-right: 20px;
+  letter-spacing: 2px;
+}
+
+li a:hover {
+	color: #c99959;
+}
+
+header p {
+	float: left;
+	color: #c99959;
+}
+
+.cart-btn {
+  border: solid 1px transparent;
+  background-color: white;
+  float: right;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.shopping-bag {
+	width: 30px;
+	height: 30px;
+}
+
+.container {
+  padding: 20px 0 20px 42px;
+  max-width: 100%;
+  height: 400px;
+}
+
+.wallet-icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+h2 {
+  font-size: 30px;
+  float: left;
+  margin: 10px 0;
+}
+
+hr {
+  width: 190px;
+  border: solid 1px #c9995a;
+  margin: 0 0 20px 0;
+}
+.color-option {
+  width: 210px;
+  height: 350px;
+  margin-left: 20px;
+  margin-right: 10px;
+  float: left;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 18px;
+
+}
+
+.head {
+  width: 100%;
+  height: 60px;
+}
+
+.color-option button {
+  margin: 0 0;
+  cursor: pointer;
+}
+
+.sheepskin-color-btn {
+  border: solid 1px transparent;
+  background-color: #e9bd93;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  float: left;
+}
+
+.all-color-btn {
+  border: solid 1px black;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  padding: 0 0;
+  float: left;
+}
+
+.tan-color-btn {
+  border: solid 1px transparent;
+  background-color: #ab5400;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.wood-color-btn {
+   border: solid 1px transparent;
+  background-color: #502a00;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.charcoal-color-btn {
+   border: solid 1px transparent;
+  background-color: #201c1d;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.oldgrey-color-btn {
+ border: solid 1px transparent;
+  background-color: #abb2a0;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.active {
+  width: 12px;
+  height: 12px;
+  background: black;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.color-box p {
+  font-size: 14px;
+  margin: 0 0 0 35px;
+  cursor: pointer;
+}
+
+.color-box {
+  width: 100%;
+  height: 40px;
+  margin: 0 0;
+}
+
+.grid-product1 {
+  width: 245px;
+  height: 325px;
+  background-color: white;
+  border: solid 1px transparent;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #ebebeb;
+  padding: 0 0;
+}
+
+.container2 {
+  width: 1000px;
+  height: 325px;
+  background-color: transparent;
+  float: left;
+  margin-top: 1em;
+}
+
+.pic {
+  height: 240px;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.fter {
+  max-width: 100%;
+  height: 40px;
+  background-color: #231f20;
+  padding: 25px 20px 20px 20px;
+}
+
+h7 {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+h8 {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+
+}
+
+.fa-facebook-square {
+  color: white;
+  float: right;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto 10px auto 0;
+}
+
+.fa-instagram {
+  color: white;
+  float: right;
+  font-size: 16px;
+  cursor: pointer;
+}
